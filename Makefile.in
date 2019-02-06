@@ -17,7 +17,7 @@ ifneq ("@systemdsystemunitdir@", "")
 endif
 
 LDLIBS = -lfcgi @systemd_LIBS@
-CFLAGS = @AM_CFLAGS@ -Wimplicit-fallthrough=0
+CFLAGS = @AM_CFLAGS@
 
 fcgiwrap: fcgiwrap.c
 
